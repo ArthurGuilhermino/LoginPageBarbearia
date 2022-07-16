@@ -1,0 +1,135 @@
+body{
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgb(65, 59, 59)), url(img/barbearia-Old-School.png);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    } 
+    
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        box-sizing: border-box;
+        
+    }
+    
+    .cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    }
+    
+    .imagem-logo{
+        border-radius: 20px;
+    }
+    
+    .menu{
+    display: flex;
+    gap: 35px;
+    }
+    
+    .menu-item{
+     font-size: 18px;   
+     font-weight: 400;
+     color: antiquewhite;
+    }
+    
+    .conteudo{
+        border-top: 0.1px solid white;
+        margin-bottom: 45px;
+    }
+    
+    .conteudo-principal{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    
+    .div-principal{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    }
+    
+    .titulo{
+    color: antiquewhite;
+    font-weight: 400;
+    font-size: 60px;
+    }
+    
+    .sub-titulo{
+    font-weight: 400;
+    font-size: 24px;
+    color: antiquewhite;
+    }
+    
+    .bnt{
+        background-color: rgb(0, 0, 0);
+        color: rgb(148, 153, 156);
+        width: 187px;
+        height: 67px;
+        border: none;
+        box-shadow: 3px 3px 3px rgb(36, 35, 35);
+        border-radius: 15px;
+        font-weight: 400;
+        font-size: 24px;
+    
+        }
+    
+        .bnt:hover{
+            color: rgb(186, 196, 196);
+        }
+        
+        .bnt,select{
+        cursor: pointer;
+        }
+    
+      .conteudo-secundario{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 50px;
+          gap: 20px;
+          color: antiquewhite;
+          border-top: 1 solid white;
+    
+      }
+    
+      .titulo-secundario{
+          border-top: 1px solid white;
+          padding-top: 50px;
+          font-size: 60px;
+          font-weight: 400;
+          color: white;
+      }
+    
+      .imagem{
+          border-radius: 20px;
+          height: 420px;
+      }
+    
+    .paragrafo{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    
+    .rodape{
+        border-top: 1px solid white;
+        padding: 30px;
+    
+    }
+    
+    .imagem-rodape{
+        display: block;
+        margin: auto;
+        border-radius: 20px;
+        height: 110px;
+    }
